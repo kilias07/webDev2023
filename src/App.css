@@ -1,28 +1,35 @@
 #root {
-  
-  min-height: 100vh;
 
-  & * {
-    box-sizing: border-box;
-  }
+    min-height: 100vh;
+
+    & * {
+        box-sizing: border-box;
+    }
+    --color-primary: #ED4C5C;
+    --color-accent: #EE3D1B;
+    --color-white: #fff;
+    --color-black: #000;
 }
 
 .App {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 h1 {
-  font-size: 7.2rem;
-  line-height: 8.64rem;
-  font-weight: 700;
+    font-size: 7.2rem;
+    line-height: 8.64rem;
+    font-weight: 700;
 }
+
 h2 {
-  font-weight: 600;
-  font-size: 3.6rem;
-  line-height: 4.32rem;
+    font-weight: 600;
+    font-size: 3.6rem;
+    line-height: 4.32rem;
 }
+
 h3 {
-  font-weight: 700;
-  font-size: 1.8rem;
-  line-height: 2.16rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.16rem;
 }
+

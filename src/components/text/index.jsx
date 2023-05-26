@@ -5,6 +5,7 @@ function Text({ className, color, size, style, children }) {
     ...style,
   };
 
+
   return <p className={className} style={textStyle}>{children}</p>;
 }
 

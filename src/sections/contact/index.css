@@ -1,3 +1,43 @@
+/* WHOLE SECTION */
 .contact {
-  height: 30rem;
+    height: 30rem;
+    margin: 7.3rem 0 7.3rem 0;
+
+    & .contact-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        max-width: 111rem;
+        margin: 0 auto;
+    }
+
 }
+
+/* INFO SIDE ON DESKTOP LEFT SIDE */
+.contact-info {
+    margin-bottom: 4rem;
+    align-self: flex-start;
+    width: 54rem;
+
+    & .contact-text {
+        margin-top: 3.3rem;
+        padding-right: 6.625rem;
+    }
+}
+
+
+/* FORM SIDE ON DESKTOP RIGHT SIDE */
+.contact-form {
+    .first-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2.4rem;
+
+        & input {
+            margin: 0;
+        }
+    }
+}
+
