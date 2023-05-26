@@ -42,7 +42,6 @@ const Contact = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         const isValid = validate();
-        console.log(isValid)
         if (isValid) {
             setFormData(
                 {
